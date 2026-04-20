@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' asset: http://127.0.0.1:* https://asset.localhost; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src data: asset: https:; media-src 'self' asset: blob:; connect-src 'self' asset: ipc: http://ipc.localhost http://127.0.0.1:*">
+  <title>Navi Notifications</title>
+  <link rel="stylesheet" href="island.css">
+</head>
+<body>
+  <div id="island" class="island collapsed">
+    <div class="island-content">
+      <div id="icon" class="icon"></div>
+      <div class="text-group">
+        <span id="title" class="title"></span>
+        <span id="message" class="message"></span>
+      </div>
+      <span id="project" class="project"></span>
+    </div>
+  </div>
+  <script src="island.js"></script>
+</body>
+</html>
