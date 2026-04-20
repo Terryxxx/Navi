@@ -122,4 +122,4 @@ navi/
 
 ## License
 
-See `LICENSE` (if present) or the repository for terms.
+Licensed under the [Apache License 2.0](LICENSE).
